@@ -1,5 +1,5 @@
 // 간격
-import 'package:flutter/cupertino.dart';
+import 'package:flutter/material.dart';
 
 const double gap_xl = 40;
 const double gap_l = 30;

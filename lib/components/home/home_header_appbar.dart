@@ -26,7 +26,7 @@ class HomeHeaderAppBar extends StatelessWidget {
         Image.asset("assets/logo.png",
             width: 30, height: 30, color: kAccentColor),
         SizedBox(width: gap_s),
-        Text("Flatmates", style: h5(mColor: Colors.white)),
+        Text("airbnb", style: h5(mColor: Colors.white)),
       ],
     );
   }

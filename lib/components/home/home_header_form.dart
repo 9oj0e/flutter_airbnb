@@ -10,13 +10,14 @@ class HomeHeaderForm extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    double screenWidth = MediaQuery.of(context).size.width;
     return Padding(
       // 1. AppBar와 거리주기
       padding: const EdgeInsets.only(top: gap_m),
       // 2. 정렬 위젯
       child: Align(
         // 3. [-1.0 ~ 1.0], 0.1 = 5%
-        alignment: Alignment(-0.6, 0),
+        alignment: screenWidth < 520 ? Alignment(0, 0) : Alignment(-0.6, 0),
         child: Container(
           width: 420,
           decoration: BoxDecoration(
